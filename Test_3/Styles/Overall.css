@@ -1,0 +1,152 @@
+
+@font-face {
+	font-family: 'gobold';
+	src:url('gobold.eot');
+	src:url('gobold') format('embedded-opentype'),
+		url('gobold.woff') format('woff'),
+		url('gobold.ttf') format('truetype'),
+		url('gobold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body,html {
+	background: #BA8B02;
+	background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+	background: linear-gradient(to right, #181818, #BA8B02);
+}
+
+
+h1,address {
+    text-align: center;
+    font-family: "gobold";
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-family: "gobold";
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+td,p,h3,li {color: #ffffff;
+    text-align: center;
+    font-family: "gobold";
+    text-transform:uppercase;
+
+}
+
+table {
+margin-top: 50px;
+}
+
+li {
+	text-indent:-30px
+
+}
+ul.b {
+    list-style-position: inside;
+}
+
+#border {
+border: 3px solid yellow;
+border-radius: 5px;
+padding: 80px;
+border-radius: 3em / 5em;
+
+}
+#border2 {
+	border: 2px solid yellow;
+	border-radius: 5px;
+  border-radius: 2em / 5em;
+}
+main{
+	padding: 15px;
+}
+img{
+	position: relative;
+}
+td {
+	padding:5px;
+	padding-right:10px;
+}
+li {
+	padding:5px;
+	padding-right:10px;
+	}
+	h1,h2 {
+
+	    text-align: center;
+	    font-family: "gobold";
+	    font-weight:bold;
+	    text-shadow:5px 5px #A52A2A;
+	    text-transform:uppercase;
+	}
+
+	h2,th {
+	    font-family: "gobold";
+	    font-size: 20px;
+	}
+	th {
+	  color:white;
+	}
+
+	body{
+	background-color: #75ccff;
+	}
+	th{
+	  border: 2px outset white;
+	}
+	td{
+		text-align: left;
+	  border: 2px outset  ;
+	  height:50px;
+	  width:150px;
+	  border-style: outset;
+	}
+	#bold{
+	  font-weight: bold;
+	}
+#right {
+	text-align: right;
+}
+@media (min-width: 481px) and (max-width: 767px) {//CSS
+
+/*tablets*/
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {//CSS
+	#nav_menu{
+		display: none;
+	}
+	main {
+		font-size:90%;
+		width: 100%;
+	}
+	#sidebarA{
+		float: none;
+		width: 200%;
+	}
+	body{
+		width:100%;
+		border:none;
+	}
+
+
+
+
+
+	/*Mobile*/
+
+
+
+@media (min-width: 1281px) {//CSS
+
+  /*Desktop*/
+
+}
